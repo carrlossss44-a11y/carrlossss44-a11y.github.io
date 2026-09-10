@@ -1,90 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Website</title>
+    <title>Carlos | Personal Website</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="site-wrapper">
+    <!-- HEADER -->
+    <header class="main-header">
 
-        <!-- Header loaded by nav.js -->
-        <header class="site-header" id="header-component"></header>
+        <div class="logo">
+            <span class="logo-mark">C</span>
 
-        <!-- Main Website Area -->
-        <div class="main-container">
+            <div>
+                <h1>CARLOS</h1>
+                <p>Personal Website</p>
+            </div>
+        </div>
 
-            <!-- Left Navigation -->
-            <aside class="sidebar-left" id="sidebar-nav-component"></aside>
+        <nav class="main-nav">
+            <a href="index.html">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#experience">EXPERIENCE</a>
+            <a href="products.html" class="product-button">PRODUCTS</a>
+        </nav>
 
-            <!-- Main Content -->
-            <main class="content-area">
+    </header>
 
-                <div class="hero-image">
-                    Hero Image at Top
-                </div>
 
-                <article class="main-text">
+    <!-- HERO SECTION -->
+    <section class="hero">
 
-                    <h2>Main Content Area</h2>
+        <div class="hero-content">
 
-                    <p>
-                        Welcome to my website. This is the main content area
-                        where text, images, projects, information, and other
-                        website content can be displayed.
-                    </p>
+            <p class="hero-small">WELCOME TO MY WEBSITE</p>
 
-                </article>
+            <h2>
+                I'M <span>CARLOS.</span>
+            </h2>
 
-            </main>
+            <p class="hero-description">
+                This is my personal website — a place to share who I am,
+                what I've worked on, my interests, projects, experience,
+                and the things I'm building for the future.
+            </p>
 
-            <!-- Right Sidebar -->
-            <aside class="sidebar-right">
+            <div class="hero-buttons">
 
-                <div class="sticky-content">
+                <a href="#about" class="button-primary">
+                    ABOUT ME
+                </a>
 
-                    <h3>Site Information</h3>
+                <a href="products.html" class="button-secondary">
+                    VIEW PRODUCTS
+                </a>
 
-                    <ul>
-                        <li>News Items</li>
-                        <li>Updates</li>
-                        <li>Offers</li>
-                        <li>General Information</li>
-                        <li>Social Media</li>
-                    </ul>
-
-                </div>
-
-            </aside>
+            </div>
 
         </div>
 
-        <!-- Footer -->
-        <footer class="site-footer">
+        <div class="hero-design">
 
-            <p>
-                &copy; <span id="year"></span> My Website. All rights reserved.
-            </p>
+            <div class="gold-line"></div>
 
-            <div class="footer-links">
-                <a href="#">Privacy Statement</a>
-                <span>|</span>
-                <a href="#">Contact</a>
-                <span>|</span>
-                <a href="#">Webmaster Email</a>
+            <div class="initial-box">
+                CR
             </div>
 
-        </footer>
+            <div class="gold-line"></div>
 
-    </div>
+        </div>
 
-    <!-- Navigation JavaScript -->
-    <script src="nav.js"></script>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-heading">
+
+            <p>01</p>
+
+            <h2>ABOUT ME</h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div>
+
+                <h3>Welcome.</h3>
+
+                <p>
+                    My name is Carlos. This website is a central place for
+                    information about me, my work, projects, interests,
+                    accomplishments, and future goals.
+                </p>
+
+                <p>
+                    I created this site to continue developing my web
+                    development skills while creating something that can
+                    grow with me over time.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <p class="card-label">PERSONAL SITE</p>
+
+                <h3>Carlos</h3>
+
+                <div class="card-line"></div>
+
+                <p>
+                    Projects • Experience • Products • More
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE / PROJECTS -->
+    <section class="section dark-section" id="experience">
+
+        <div class="section-heading">
+
+            <p>02</p>
+
+            <h2>MY WORK</h2>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="info-card">
+
+                <span>01</span>
+
+                <h3>Projects</h3>
+
+                <p>
+                    A collection of projects, assignments, websites,
+                    ideas, and other work.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span>02</span>
+
+                <h3>Experience</h3>
+
+                <p>
+                    Information about my professional experience,
+                    education, skills, and accomplishments.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span>03</span>
+
+                <h3>Products</h3>
+
+                <p>
+                    Visit the products section to see featured products
+                    and future additions to the website.
+                </p>
+
+                <a href="products.html">
+                    VIEW PRODUCTS →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+
+        <p>EXPLORE MORE</p>
+
+        <h2>See What I'm Working On.</h2>
+
+        <a href="products.html">
+            PRODUCTS
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+
+            <strong>CARLOS</strong>
+
+            <p>Personal Website</p>
+
+        </div>
+
+        <p>
+            &copy; <span id="year"></span> Carlos. All Rights Reserved.
+        </p>
+
+    </footer>
+
 
     <script>
         document.getElementById("year").textContent =
@@ -92,4 +232,5 @@
     </script>
 
 </body>
+
 </html>
