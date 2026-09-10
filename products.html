@@ -11,47 +11,37 @@
 
 <body>
 
-    <header class="site-header">
-
-        <a class="brand" href="index.html">
-            <div class="brand-symbol">C</div>
-
-            <div class="brand-text">
-                <h1>Carlos</h1>
-                <p>Personal Portfolio</p>
-            </div>
-        </a>
-
-        <nav class="main-nav">
-            <a href="index.html">Home</a>
-            <a href="index.html#about">About</a>
-            <a href="index.html#work">Work</a>
-            <a href="products.html" class="nav-button">Products</a>
-        </nav>
-
-    </header>
+    <!-- Navigation loaded by nav.js -->
+    <header id="site-header"></header>
 
 
     <main>
 
+        <!-- PRODUCT PAGE HERO -->
         <section class="products-hero">
 
-            <p class="eyebrow">CURATED COLLECTION</p>
+            <p class="eyebrow">
+                CURATED COLLECTION
+            </p>
 
-            <h2>Products</h2>
+            <h1>
+                Products
+            </h1>
 
-            <p>
-                A showcase of advanced aviation and luxury design.
+            <p class="products-intro">
+                A collection highlighting advanced aviation
+                and luxury marine design.
             </p>
 
         </section>
 
 
-        <section class="section">
+        <!-- PRODUCTS -->
+        <section class="content-section">
 
-            <div class="section-title">
+            <div class="section-heading">
 
-                <p>01</p>
+                <span>01</span>
 
                 <h2>Featured Products</h2>
 
@@ -61,27 +51,45 @@
             <div class="product-grid">
 
 
+                <!-- F-35 -->
                 <article class="product-card">
 
-                    <div class="product-visual aircraft-one">
-                        <span>F-35</span>
+                    <div class="product-image aircraft-one">
+
+                        <div>
+                            <span>AIRCRAFT</span>
+
+                            <strong>
+                                F-35
+                            </strong>
+                        </div>
+
                     </div>
+
 
                     <div class="product-content">
 
-                        <p class="product-type">
-                            ADVANCED AIRCRAFT
+                        <p class="product-category">
+                            ADVANCED AVIATION
                         </p>
 
-                        <h3>F-35 Lightning II</h3>
+                        <h3>
+                            F-35 Lightning II
+                        </h3>
 
                         <p>
-                            A modern fifth-generation aircraft known for
-                            advanced technology, performance, and integrated
-                            systems.
+                            The F-35 Lightning II is a fifth-generation
+                            aircraft designed around advanced technology,
+                            integrated systems, performance, and
+                            multi-role capability.
                         </p>
 
-                        <a href="#" class="product-link">
+                        <a
+                            href="https://www.f35.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="product-link"
+                        >
                             Learn More →
                         </a>
 
@@ -90,27 +98,45 @@
                 </article>
 
 
+                <!-- V-22 -->
                 <article class="product-card">
 
-                    <div class="product-visual aircraft-two">
-                        <span>V-22</span>
+                    <div class="product-image aircraft-two">
+
+                        <div>
+                            <span>AIRCRAFT</span>
+
+                            <strong>
+                                V-22
+                            </strong>
+                        </div>
+
                     </div>
+
 
                     <div class="product-content">
 
-                        <p class="product-type">
-                            TILTROTOR AIRCRAFT
+                        <p class="product-category">
+                            TILTROTOR AVIATION
                         </p>
 
-                        <h3>V-22 Osprey</h3>
+                        <h3>
+                            V-22 Osprey
+                        </h3>
 
                         <p>
-                            A distinctive aircraft combining vertical
-                            takeoff capability with the speed and range
-                            of fixed-wing flight.
+                            The V-22 Osprey combines vertical takeoff
+                            capability with the speed and range of a
+                            fixed-wing aircraft through its distinctive
+                            tiltrotor design.
                         </p>
 
-                        <a href="#" class="product-link">
+                        <a
+                            href="https://www.boeing.com/defense/v-22-osprey"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="product-link"
+                        >
                             Learn More →
                         </a>
 
@@ -119,26 +145,45 @@
                 </article>
 
 
+                <!-- YACHT -->
                 <article class="product-card">
 
-                    <div class="product-visual yacht">
-                        <span>YACHT</span>
+                    <div class="product-image yacht">
+
+                        <div>
+                            <span>LUXURY MARINE</span>
+
+                            <strong>
+                                YACHT
+                            </strong>
+                        </div>
+
                     </div>
+
 
                     <div class="product-content">
 
-                        <p class="product-type">
-                            LUXURY MARINE
+                        <p class="product-category">
+                            LUXURY DESIGN
                         </p>
 
-                        <h3>Luxury Yacht</h3>
+                        <h3>
+                            Luxury Yacht
+                        </h3>
 
                         <p>
-                            An elegant expression of comfort, performance,
-                            craftsmanship, and refined design on the water.
+                            A luxury yacht represents the combination
+                            of elegant design, craftsmanship, comfort,
+                            performance, and the freedom of life
+                            on the water.
                         </p>
 
-                        <a href="#" class="product-link">
+                        <a
+                            href="https://www.prestige-yachts.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="product-link"
+                        >
                             Learn More →
                         </a>
 
@@ -152,14 +197,17 @@
         </section>
 
 
+        <!-- CTA -->
         <section class="cta-section">
 
             <p>RETURN</p>
 
-            <h2>Back to Carlos</h2>
+            <h2>
+                Back to My Portfolio
+            </h2>
 
-            <a href="index.html" class="button button-gold">
-                Home
+            <a href="index.html" class="button gold-button">
+                Back Home
             </a>
 
         </section>
@@ -167,19 +215,26 @@
     </main>
 
 
+    <!-- FOOTER -->
     <footer>
 
-        <div>
+        <div class="footer-brand">
+
             <strong>Carlos</strong>
+
             <p>Personal Portfolio</p>
+
         </div>
 
         <p>
-            © <span id="year"></span> Carlos. All Rights Reserved.
+            © <span id="year"></span>
+            Carlos. All Rights Reserved.
         </p>
 
     </footer>
 
+
+    <script src="nav.js"></script>
 
     <script>
         document.getElementById("year").textContent =
