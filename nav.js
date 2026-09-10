@@ -1,59 +1,50 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
-    // HEADER
-    const headerElement = document.getElementById("header-component");
+    const header = document.getElementById("site-header");
 
-    if (headerElement) {
-        headerElement.innerHTML = `
-            <div class="logo-box">
-                <h1>Logo</h1>
-            </div>
+    if (header) {
 
-            <div class="header-right">
-                <div class="info-graphics-bar">
-                    Welcome to my website
-                </div>
+        header.innerHTML = `
+            <div class="site-header">
 
-                <nav class="nav-bar-primary">
-                    <ul class="nav-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
+                <a href="index.html" class="brand">
+
+                    <div class="brand-symbol">
+                        C
+                    </div>
+
+                    <div class="brand-text">
+
+                        <h2>Carlos</h2>
+
+                        <p>Personal Portfolio</p>
+
+                    </div>
+
+                </a>
+
+
+                <nav class="main-nav">
+
+                    <a href="index.html">
+                        Home
+                    </a>
+
+                    <a href="index.html#about">
+                        About
+                    </a>
+
+                    <a href="index.html#work">
+                        Work
+                    </a>
+
+                    <a href="products.html" class="nav-product-button">
+                        Products
+                    </a>
+
                 </nav>
 
-                <nav class="nav-bar-secondary">
-                    <ul class="nav-links">
-                        <li><a href="#">Secondary Link 1</a></li>
-                        <li><a href="#">Secondary Link 2</a></li>
-                    </ul>
-                </nav>
             </div>
-        `;
-    }
-
-    // LEFT SIDEBAR
-    const sidebarNavElement =
-        document.getElementById("sidebar-nav-component");
-
-    if (sidebarNavElement) {
-        sidebarNavElement.innerHTML = `
-            <h3>Primary Navigation</h3>
-
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Repositories</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-
-            <h3>More</h3>
-
-            <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Resources</a></li>
-            </ul>
         `;
     }
 
