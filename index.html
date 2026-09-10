@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+
+        <!-- Header loaded by nav.js -->
+        <header class="site-header" id="header-component"></header>
+
+        <!-- Main Website Area -->
+        <div class="main-container">
+
+            <!-- Left Navigation -->
+            <aside class="sidebar-left" id="sidebar-nav-component"></aside>
+
+            <!-- Main Content -->
+            <main class="content-area">
+
+                <div class="hero-image">
+                    Hero Image at Top
+                </div>
+
+                <article class="main-text">
+
+                    <h2>Main Content Area</h2>
+
+                    <p>
+                        Welcome to my website. This is the main content area
+                        where text, images, projects, information, and other
+                        website content can be displayed.
+                    </p>
+
+                </article>
+
+            </main>
+
+            <!-- Right Sidebar -->
+            <aside class="sidebar-right">
+
+                <div class="sticky-content">
+
+                    <h3>Site Information</h3>
+
+                    <ul>
+                        <li>News Items</li>
+                        <li>Updates</li>
+                        <li>Offers</li>
+                        <li>General Information</li>
+                        <li>Social Media</li>
+                    </ul>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+
+            <p>
+                &copy; <span id="year"></span> My Website. All rights reserved.
+            </p>
+
+            <div class="footer-links">
+                <a href="#">Privacy Statement</a>
+                <span>|</span>
+                <a href="#">Contact</a>
+                <span>|</span>
+                <a href="#">Webmaster Email</a>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <!-- Navigation JavaScript -->
+    <script src="nav.js"></script>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
