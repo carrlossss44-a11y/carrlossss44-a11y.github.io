@@ -1,213 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Products | Carlos</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
+    <header class="site-header">
 
-<header class="main-header">
+        <a class="brand" href="index.html">
+            <div class="brand-symbol">C</div>
 
-    <div class="logo">
-
-        <span class="logo-mark">C</span>
-
-        <div>
-
-            <h1>CARLOS</h1>
-
-            <p>Personal Website</p>
-
-        </div>
-
-    </div>
-
-
-    <nav class="main-nav">
-
-        <a href="index.html">HOME</a>
-
-        <a href="index.html#about">ABOUT</a>
-
-        <a href="index.html#experience">EXPERIENCE</a>
-
-        <a href="products.html"
-           class="product-button">
-
-            PRODUCTS
-
+            <div class="brand-text">
+                <h1>Carlos</h1>
+                <p>Personal Portfolio</p>
+            </div>
         </a>
 
-    </nav>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#work">Work</a>
+            <a href="products.html" class="nav-button">Products</a>
+        </nav>
 
-</header>
-
-
-
-<section class="page-hero">
-
-    <p>CARLOS</p>
-
-    <h2>PRODUCTS</h2>
-
-</section>
+    </header>
 
 
+    <main>
 
-<section class="product-section">
+        <section class="products-hero">
 
-    <div class="section-heading">
+            <p class="eyebrow">CURATED COLLECTION</p>
 
-        <p>01</p>
+            <h2>Products</h2>
 
-        <h2>FEATURED PRODUCTS</h2>
+            <p>
+                A showcase of advanced aviation and luxury design.
+            </p>
 
-    </div>
+        </section>
 
 
-    <div class="product-grid">
+        <section class="section">
 
+            <div class="section-title">
 
-        <article class="product-card">
+                <p>01</p>
 
-            <div class="product-image">
-
-                01
+                <h2>Featured Products</h2>
 
             </div>
 
-            <div class="product-info">
 
-                <h3>Product One</h3>
+            <div class="product-grid">
 
-                <p>
-                    This area can contain information
-                    about your first product.
-                </p>
 
-                <button>
-                    LEARN MORE
-                </button>
+                <article class="product-card">
+
+                    <div class="product-visual aircraft-one">
+                        <span>F-35</span>
+                    </div>
+
+                    <div class="product-content">
+
+                        <p class="product-type">
+                            ADVANCED AIRCRAFT
+                        </p>
+
+                        <h3>F-35 Lightning II</h3>
+
+                        <p>
+                            A modern fifth-generation aircraft known for
+                            advanced technology, performance, and integrated
+                            systems.
+                        </p>
+
+                        <a href="#" class="product-link">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-visual aircraft-two">
+                        <span>V-22</span>
+                    </div>
+
+                    <div class="product-content">
+
+                        <p class="product-type">
+                            TILTROTOR AIRCRAFT
+                        </p>
+
+                        <h3>V-22 Osprey</h3>
+
+                        <p>
+                            A distinctive aircraft combining vertical
+                            takeoff capability with the speed and range
+                            of fixed-wing flight.
+                        </p>
+
+                        <a href="#" class="product-link">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-visual yacht">
+                        <span>YACHT</span>
+                    </div>
+
+                    <div class="product-content">
+
+                        <p class="product-type">
+                            LUXURY MARINE
+                        </p>
+
+                        <h3>Luxury Yacht</h3>
+
+                        <p>
+                            An elegant expression of comfort, performance,
+                            craftsmanship, and refined design on the water.
+                        </p>
+
+                        <a href="#" class="product-link">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </article>
+
 
             </div>
 
-        </article>
+        </section>
 
 
+        <section class="cta-section">
 
-        <article class="product-card">
+            <p>RETURN</p>
 
-            <div class="product-image">
+            <h2>Back to Carlos</h2>
 
-                02
+            <a href="index.html" class="button button-gold">
+                Home
+            </a>
 
-            </div>
+        </section>
 
-            <div class="product-info">
-
-                <h3>Product Two</h3>
-
-                <p>
-                    Add another product, project,
-                    service, or item here.
-                </p>
-
-                <button>
-                    LEARN MORE
-                </button>
-
-            </div>
-
-        </article>
+    </main>
 
 
+    <footer>
 
-        <article class="product-card">
+        <div>
+            <strong>Carlos</strong>
+            <p>Personal Portfolio</p>
+        </div>
 
-            <div class="product-image">
+        <p>
+            © <span id="year"></span> Carlos. All Rights Reserved.
+        </p>
 
-                03
-
-            </div>
-
-            <div class="product-info">
-
-                <h3>Product Three</h3>
-
-                <p>
-                    This page can eventually become
-                    a complete product catalog.
-                </p>
-
-                <button>
-                    LEARN MORE
-                </button>
-
-            </div>
-
-        </article>
+    </footer>
 
 
-    </div>
-
-</section>
-
-
-
-<section class="cta">
-
-    <p>RETURN</p>
-
-    <h2>Back To My Website</h2>
-
-    <a href="index.html">
-        HOME
-    </a>
-
-</section>
-
-
-
-<footer>
-
-    <div>
-
-        <strong>CARLOS</strong>
-
-        <p>Personal Website</p>
-
-    </div>
-
-
-    <p>
-        &copy;
-        <span id="year"></span>
-        Carlos. All Rights Reserved.
-    </p>
-
-</footer>
-
-
-<script>
-
-    document.getElementById("year").textContent =
-        new Date().getFullYear();
-
-</script>
-
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
 
 </body>
-
 </html>
