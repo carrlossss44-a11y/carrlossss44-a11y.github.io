@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About | Carlos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="site-wrapper">
+
+
+    <!-- HEADER -->
+    <header id="header-component" class="site-header"></header>
+
+
+    <!-- MAIN THREE-COLUMN LAYOUT -->
+    <div class="main-container">
+
+
+        <!-- LEFT NAVIGATION -->
+        <aside
+            id="sidebar-nav-component"
+            class="sidebar-left">
+        </aside>
+
+
+        <!-- CENTER CONTENT -->
+        <main class="content-area">
+
+
+            <!-- PAGE HERO -->
+            <section class="page-hero">
+
+                <p class="page-label">
+                    ABOUT
+                </p>
+
+                <h1>
+                    About Me
+                </h1>
+
+                <p class="page-subtitle">
+                    Education • Interests • Goals
+                </p>
+
+            </section>
+
+
+            <!-- INTRODUCTION -->
+            <section class="main-content-section">
+
+                <h2>Hello, I'm Carlos.</h2>
+
+                <p>
+                    I am a Marketing major with an Associate degree
+                    in Business Administration. My education has
+                    allowed me to develop an interest in business,
+                    marketing, technology, and the way organizations
+                    connect with their customers.
+                </p>
+
+                <p>
+                    I created this website as an opportunity to
+                    develop my web design skills while also building
+                    a personal portfolio that can grow alongside my
+                    education and professional experience.
+                </p>
+
+            </section>
+
+
+            <!-- EDUCATION -->
+            <section class="main-content-section">
+
+                <h2>Education</h2>
+
+                <p>
+                    My academic background includes an Associate
+                    degree in Business Administration, and I am
+                    currently pursuing my education in Marketing.
+                </p>
+
+                <p>
+                    Studying business and marketing has helped me
+                    better understand topics such as customer
+                    behavior, communication, business strategy,
+                    technology, and the importance of creating
+                    value for customers.
+                </p>
+
+            </section>
+
+
+            <!-- INTERESTS -->
+            <section class="main-content-section">
+
+                <h2>My Interests</h2>
+
+                <p>
+                    Some of my main interests include marketing,
+                    web design, technology, and learning new
+                    languages. I enjoy learning how businesses
+                    communicate with customers and how technology
+                    can be used to create better experiences.
+                </p>
+
+                <p>
+                    Language learning is another important interest
+                    of mine. One of my long-term personal goals is
+                    to learn more than six languages.
+                </p>
+
+            </section>
+
+
+            <!-- CAREER GOALS -->
+            <section class="main-content-section">
+
+                <h2>Career Goals</h2>
+
+                <p>
+                    In the future, I would like to build a career
+                    that combines my interests in marketing,
+                    business, and technology.
+                </p>
+
+                <p>
+                    I am particularly interested in opportunities
+                    with aerospace and technology companies such
+                    as Pratt & Whitney or Lockheed Martin. I hope
+                    to continue developing my skills and eventually
+                    contribute to an organization where I can grow
+                    professionally while applying what I have
+                    learned through my education.
+                </p>
+
+            </section>
+
+
+        </main>
+
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="sidebar-right">
+
+            <div class="sticky-content">
+
+                <h3>At a Glance</h3>
+
+                <ul>
+                    <li>Marketing Major</li>
+                    <li>Business Administration</li>
+                    <li>Marketing</li>
+                    <li>Web Design</li>
+                    <li>Language Learning</li>
+                </ul>
+
+
+                <div class="sidebar-box">
+
+                    <p class="sidebar-title">
+                        Personal Goal
+                    </p>
+
+                    <p>
+                        One of my long-term goals is to learn
+                        more than six languages.
+                    </p>
+
+                    <a href="products.html">
+                        Explore Products →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div>
+
+            <strong>Carlos</strong>
+
+            <p>Personal Portfolio</p>
+
+        </div>
+
+
+        <p>
+            © <span id="year"></span>
+            Carlos. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script src="nav.js"></script>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
+
+
+</body>
+
+</html>
