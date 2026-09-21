@@ -1,242 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos | Personal Portfolio</title>
+
+    <title>Carlos | Personal Website</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-<header class="header">
-
-    <a href="index.html" class="logo">
-        <div class="logo-icon">C</div>
-
-        <div>
-            <h1>CARLOS</h1>
-            <p>PERSONAL PORTFOLIO</p>
-        </div>
-    </a>
-
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#work">WORK</a>
-        <a href="products.html" class="products-button">PRODUCTS</a>
-    </nav>
-
-</header>
+<div class="site-wrapper">
 
 
-<main>
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-    <!-- HERO -->
-
-    <section class="hero">
-
-        <div class="hero-text">
-
-            <p class="small-title">WELCOME</p>
-
-            <h2>
-                I'm Carlos.
-                <span>A portfolio built around my interests and work.</span>
-            </h2>
-
-            <p class="hero-description">
-                Welcome to my personal website. This is a space where I can
-                showcase my background, projects, experience, interests,
-                and the things I am working toward.
-            </p>
-
-            <div class="buttons">
-
-                <a href="#about" class="gold-button">
-                    ABOUT ME
-                </a>
-
-                <a href="products.html" class="clear-button">
-                    VIEW PRODUCTS
-                </a>
-
-            </div>
-
-        </div>
+    <header id="header-component" class="site-header">
+    </header>
 
 
-        <div class="hero-card">
+    <!-- =========================
+         MAIN PAGE LAYOUT
+    ========================== -->
 
-            <p>PERSONAL PORTFOLIO</p>
-
-            <div class="initials">
-                CR
-            </div>
-
-            <span>
-                DESIGN • AMBITION • PROGRESS
-            </span>
-
-        </div>
-
-    </section>
+    <div class="main-container">
 
 
-    <!-- ABOUT -->
+        <!-- LEFT NAVIGATION -->
 
-    <section class="section" id="about">
-
-        <div class="section-title">
-
-            <span>01</span>
-
-            <h2>About Me</h2>
-
-            <div class="line"></div>
-
-        </div>
+        <aside
+            id="sidebar-nav-component"
+            class="sidebar-left">
+        </aside>
 
 
-        <div class="about">
 
-            <div>
+        <!-- =========================
+             CENTER CONTENT
+        ========================== -->
 
-                <h3>Hello, I'm Carlos.</h3>
+        <main class="content-area">
+
+
+            <!-- HERO / GRAPHIC AREA -->
+
+            <section class="page-hero">
+
+                <p class="page-label">
+                    WELCOME
+                </p>
+
+                <h1>
+                    Carlos
+                </h1>
+
+                <p class="page-subtitle">
+                    Personal Portfolio
+                </p>
+
+            </section>
+
+
+
+            <!-- ABOUT CONTENT -->
+
+            <section
+                class="main-content-section"
+                id="about">
+
+                <h2>
+                    About Me
+                </h2>
 
                 <p>
-                    This website is my personal digital portfolio. It gives me
-                    a place to share my projects, interests, experience,
-                    education, and future ideas.
+                    Hello, my name is Carlos. Welcome to my
+                    personal website. This site is a place
+                    where I can share information about my
+                    background, education, interests,
+                    experience, and projects.
                 </p>
 
                 <p>
-                    I wanted the design to feel professional and elegant while
-                    still having a distinctive identity. The crimson, gold,
-                    black, and cream color palette creates a refined appearance
-                    without making the website feel overly complicated.
+                    The purpose of this website is to create
+                    an organized digital portfolio while
+                    practicing the HTML, CSS, JavaScript,
+                    responsive design, and user interface
+                    concepts covered in this course.
                 </p>
 
-            </div>
+                <p>
+                    Use the navigation areas around the page
+                    to explore the different sections of my
+                    website.
+                </p>
+
+                <a
+                    href="about.html"
+                    class="main-button">
+
+                    Learn More About Me
+
+                </a>
+
+            </section>
 
 
-            <div class="quote-card">
 
-                <div class="quote">“</div>
+            <!-- FEATURED CONTENT -->
+
+            <section class="featured-section">
+
+                <h2>
+                    Featured Areas
+                </h2>
+
+
+                <div class="featured-grid">
+
+
+                    <article class="featured-card">
+
+                        <span>
+                            01
+                        </span>
+
+                        <h3>
+                            About
+                        </h3>
+
+                        <p>
+                            Learn more about my background,
+                            education, interests, and goals.
+                        </p>
+
+                        <a href="about.html">
+                            Learn More →
+                        </a>
+
+                    </article>
+
+
+
+                    <article class="featured-card">
+
+                        <span>
+                            02
+                        </span>
+
+                        <h3>
+                            Products
+                        </h3>
+
+                        <p>
+                            Explore a collection featuring
+                            aircraft and luxury marine design.
+                        </p>
+
+                        <a href="products.html">
+                            View Products →
+                        </a>
+
+                    </article>
+
+
+
+                    <article class="featured-card">
+
+                        <span>
+                            03
+                        </span>
+
+                        <h3>
+                            Contact
+                        </h3>
+
+                        <p>
+                            Visit the contact page to send
+                            feedback through the website.
+                        </p>
+
+                        <a href="contact.html">
+                            Contact Me →
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+            </section>
+
+
+        </main>
+
+
+
+        <!-- =========================
+             RIGHT SIDEBAR
+        ========================== -->
+
+        <aside class="sidebar-right">
+
+            <div class="sticky-content">
 
                 <h3>
-                    Build something worth remembering.
+                    Site Information
                 </h3>
 
-                <p>
-                    A portfolio designed to evolve alongside new ideas,
-                    projects, and opportunities.
-                </p>
+
+                <ul>
+
+                    <li>
+                        Personal Portfolio
+                    </li>
+
+                    <li>
+                        About Me
+                    </li>
+
+                    <li>
+                        Featured Products
+                    </li>
+
+                    <li>
+                        Contact & Feedback
+                    </li>
+
+                </ul>
+
+
+
+                <div class="sidebar-box">
+
+                    <p class="sidebar-title">
+                        Explore
+                    </p>
+
+                    <p>
+                        This website contains multiple pages
+                        featuring information about me,
+                        products, and ways to get in contact.
+                    </p>
+
+                    <a href="products.html">
+                        View Products →
+                    </a>
+
+                </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </aside>
 
 
-    <!-- WORK -->
-
-    <section class="work" id="work">
-
-        <div class="section-title white-title">
-
-            <span>02</span>
-
-            <h2>Featured Areas</h2>
-
-            <div class="line"></div>
-
-        </div>
-
-
-        <div class="cards">
-
-            <div class="card">
-
-                <span>01</span>
-
-                <h3>Projects</h3>
-
-                <p>
-                    A place for websites, school projects,
-                    concepts, and creative work.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <span>02</span>
-
-                <h3>Experience</h3>
-
-                <p>
-                    A place to showcase education,
-                    professional experience, achievements,
-                    and skills.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <span>03</span>
-
-                <h3>Products</h3>
-
-                <p>
-                    Explore a curated collection featuring
-                    two aircraft and a luxury yacht.
-                </p>
-
-                <a href="products.html">
-                    EXPLORE PRODUCTS →
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- BOTTOM CTA -->
-
-    <section class="cta">
-
-        <p>DISCOVER</p>
-
-        <h2>Explore the Collection.</h2>
-
-        <a href="products.html">
-            VIEW PRODUCTS
-        </a>
-
-    </section>
-
-</main>
-
-
-<footer>
-
-    <div>
-        <strong>CARLOS</strong>
-        <p>PERSONAL PORTFOLIO</p>
     </div>
 
-    <p>
-        © 2026 Carlos. All Rights Reserved.
-    </p>
 
-</footer>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div>
+
+            <strong>
+                Carlos
+            </strong>
+
+            <p>
+                Personal Portfolio
+            </p>
+
+        </div>
+
+
+        <p>
+            © <span id="year"></span>
+            Carlos. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</div>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="nav.js"></script>
+
+
+<script>
+
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+
+</script>
+
 
 </body>
+
 </html>
