@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Carlos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="site-wrapper">
+
+
+    <!-- HEADER -->
+    <header id="header-component" class="site-header"></header>
+
+
+    <!-- MAIN THREE-COLUMN LAYOUT -->
+    <div class="main-container">
+
+
+        <!-- LEFT NAVIGATION -->
+        <aside
+            id="sidebar-nav-component"
+            class="sidebar-left">
+        </aside>
+
+
+        <!-- CENTER CONTENT -->
+        <main class="content-area">
+
+
+            <!-- PAGE HERO -->
+            <section class="page-hero">
+
+                <p class="page-label">
+                    CONTACT
+                </p>
+
+                <h1>
+                    Contact Me
+                </h1>
+
+                <p class="page-subtitle">
+                    Questions • Feedback • Communication
+                </p>
+
+            </section>
+
+
+            <!-- CONTACT INTRODUCTION -->
+            <section class="main-content-section">
+
+                <h2>Get in Touch</h2>
+
+                <p>
+                    Thank you for visiting my personal website.
+                    If you have a question, comment, or feedback
+                    about my website, you can use the form below
+                    to send me a message.
+                </p>
+
+            </section>
+
+
+            <!-- GOOGLE FORM -->
+            <div class="form-container">
+
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdDhuXmUMq9t2L03OTd27LrEa1v237a-IqG0WxOldMEaPtKWg/viewform?embedded=true"
+                    width="100%"
+                    height="850"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0">
+                    Loading…
+                </iframe>
+
+            </div>
+
+
+        </main>
+
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="sidebar-right">
+
+            <div class="sticky-content">
+
+                <h3>Contact</h3>
+
+                <ul>
+                    <li>Questions</li>
+                    <li>Comments</li>
+                    <li>Website Feedback</li>
+                </ul>
+
+
+                <div class="sidebar-box">
+
+                    <p class="sidebar-title">
+                        Feedback
+                    </p>
+
+                    <p>
+                        Use the form on this page to share
+                        questions or feedback about my website.
+                    </p>
+
+                    <a href="index.html">
+                        Return Home →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div>
+
+            <strong>Carlos</strong>
+
+            <p>Personal Portfolio</p>
+
+        </div>
+
+
+        <p>
+            © <span id="year"></span>
+            Carlos. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script src="nav.js"></script>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
+
+
+</body>
+
+</html>
