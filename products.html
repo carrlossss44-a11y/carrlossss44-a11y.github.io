@@ -1,215 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Products | Carlos</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="header">
-
-    <a href="index.html" class="logo">
-
-        <div class="logo-icon">C</div>
-
-        <div>
-            <h1>CARLOS</h1>
-            <p>PERSONAL PORTFOLIO</p>
-        </div>
-
-    </a>
+<div class="site-wrapper">
 
 
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="index.html#about">ABOUT</a>
-        <a href="index.html#work">WORK</a>
-        <a href="products.html" class="products-button">PRODUCTS</a>
-    </nav>
-
-</header>
+    <!-- HEADER -->
+    <header id="header-component" class="site-header"></header>
 
 
-<main>
-
-    <!-- PRODUCTS HERO -->
-
-    <section class="product-hero">
-
-        <p>CURATED COLLECTION</p>
-
-        <h2>Products</h2>
-
-        <span>
-            Aviation and luxury design.
-        </span>
-
-    </section>
+    <!-- MAIN THREE-COLUMN LAYOUT -->
+    <div class="main-container">
 
 
-    <!-- PRODUCTS -->
-
-    <section class="section">
-
-        <div class="section-title">
-
-            <span>01</span>
-
-            <h2>Featured Products</h2>
-
-            <div class="line"></div>
-
-        </div>
+        <!-- LEFT NAVIGATION -->
+        <aside
+            id="sidebar-nav-component"
+            class="sidebar-left">
+        </aside>
 
 
-        <div class="product-grid">
+        <!-- CENTER CONTENT -->
+        <main class="content-area">
 
 
-            <!-- F35 -->
+            <!-- PAGE TITLE -->
+            <section class="product-page-title">
 
-            <article class="product">
+                <p>FEATURED COLLECTION</p>
 
-                <div class="product-picture jet">
-                    <div>
-                        <small>ADVANCED AIRCRAFT</small>
-                        <strong>F-35</strong>
+                <h1>Products</h1>
+
+            </section>
+
+
+            <!-- INTRODUCTION -->
+            <section class="main-content-section">
+
+                <h2>Featured Products</h2>
+
+                <p>
+                    This page highlights three products that represent
+                    technology, engineering, aviation, and luxury design.
+                    Explore the collection below to learn more.
+                </p>
+
+            </section>
+
+
+            <!-- PRODUCTS -->
+            <section class="product-grid">
+
+
+                <!-- PRODUCT 1 -->
+                <article class="product-card">
+
+                    <div class="product-visual">
+                        F-35
                     </div>
-                </div>
 
-                <div class="product-info">
+                    <div class="product-content">
 
-                    <p>AVIATION</p>
+                        <h3>F-35 Lightning II</h3>
 
-                    <h3>F-35 Lightning II</h3>
+                        <p>
+                            The F-35 Lightning II is a fifth-generation
+                            aircraft featuring advanced technology,
+                            integrated systems, and multi-role capability.
+                        </p>
 
-                    <p class="description">
-                        A fifth-generation aircraft featuring advanced
-                        technology, integrated systems, performance,
-                        and multi-role capability.
+                        <a
+                            href="https://www.f35.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+                <article class="product-card">
+
+                    <div class="product-visual">
+                        V-22
+                    </div>
+
+                    <div class="product-content">
+
+                        <h3>V-22 Osprey</h3>
+
+                        <p>
+                            The V-22 Osprey is a tiltrotor aircraft
+                            combining vertical takeoff and landing
+                            capabilities with fixed-wing flight.
+                        </p>
+
+                        <a
+                            href="https://www.boeing.com/defense/v-22-osprey"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+                <article class="product-card">
+
+                    <div class="product-visual">
+                        YACHT
+                    </div>
+
+                    <div class="product-content">
+
+                        <h3>Luxury Yacht</h3>
+
+                        <p>
+                            Luxury yachts combine marine engineering,
+                            craftsmanship, performance, comfort,
+                            and sophisticated design.
+                        </p>
+
+                        <a
+                            href="https://www.prestige-yachts.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </section>
+
+
+        </main>
+
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="sidebar-right">
+
+            <div class="sticky-content">
+
+                <h3>Product Categories</h3>
+
+                <ul>
+                    <li>Aviation</li>
+                    <li>Aircraft Technology</li>
+                    <li>Engineering</li>
+                    <li>Luxury Marine</li>
+                </ul>
+
+
+                <div class="sidebar-box">
+
+                    <p class="sidebar-title">
+                        Navigation
                     </p>
 
-                    <a
-                        href="https://www.f35.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LEARN MORE →
+                    <p>
+                        Explore other sections of my
+                        personal website.
+                    </p>
+
+                    <a href="index.html">
+                        Return Home →
                     </a>
 
                 </div>
 
-            </article>
+            </div>
+
+        </aside>
 
 
-            <!-- V22 -->
-
-            <article class="product">
-
-                <div class="product-picture osprey">
-                    <div>
-                        <small>TILTROTOR AIRCRAFT</small>
-                        <strong>V-22</strong>
-                    </div>
-                </div>
-
-                <div class="product-info">
-
-                    <p>AVIATION</p>
-
-                    <h3>V-22 Osprey</h3>
-
-                    <p class="description">
-                        A unique tiltrotor aircraft combining vertical
-                        takeoff and landing with the range and speed
-                        of fixed-wing flight.
-                    </p>
-
-                    <a
-                        href="https://www.boeing.com/defense/v-22-osprey"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LEARN MORE →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- YACHT -->
-
-            <article class="product">
-
-                <div class="product-picture yacht">
-                    <div>
-                        <small>LUXURY MARINE</small>
-                        <strong>YACHT</strong>
-                    </div>
-                </div>
-
-                <div class="product-info">
-
-                    <p>LUXURY</p>
-
-                    <h3>Luxury Yacht</h3>
-
-                    <p class="description">
-                        A combination of elegant design,
-                        craftsmanship, comfort, performance,
-                        and life on the water.
-                    </p>
-
-                    <a
-                        href="https://www.prestige-yachts.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LEARN MORE →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- RETURN -->
-
-    <section class="cta">
-
-        <p>RETURN</p>
-
-        <h2>Back to My Portfolio.</h2>
-
-        <a href="index.html">
-            BACK HOME
-        </a>
-
-    </section>
-
-</main>
-
-
-<footer>
-
-    <div>
-        <strong>CARLOS</strong>
-        <p>PERSONAL PORTFOLIO</p>
     </div>
 
-    <p>
-        © 2026 Carlos. All Rights Reserved.
-    </p>
 
-</footer>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div>
+
+            <strong>Carlos</strong>
+
+            <p>Personal Portfolio</p>
+
+        </div>
+
+        <p>
+            © <span id="year"></span>
+            Carlos. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script src="nav.js"></script>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
+
 
 </body>
+
 </html>
